@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/parallax', function () {
     return view('parallax-template');
 });
+
+Route::get('/scrollfire', function () {
+    return view('scrollfire');
+});
