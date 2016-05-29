@@ -15,9 +15,17 @@
 <body>
 <nav class="teal lighten-2" role="navigation">
   <div class="nav-wrapper container">
-    {{--<a id="logo-container" href="#" class="brand-logo white-text">Nick Bertanzetti</a>--}}
+    <div id="logo-container">
+      <div class="brand-logo white-text">
+        <i class="material-icons dp48">settings_power</i>
+      </div>
+    </div>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#" class="white-text">Navbar Link</a></li>
+      <li><a href="#" class="white-text">About</a></li>
+      <li><a href="#" class="white-text">Services</a></li>
+      <li><a href="#portfolio" class="white-text">Portfolio</a></li>
+      <li><a href="#" class="white-text">Tools</a></li>
+      <li><a href="#" class="white-text">Contact</a></li>
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
@@ -34,19 +42,21 @@
         <div class="col s12 m6 l8 offset-l2">
           <div class="card hoverable" style="overflow: hidden;">
             <div class="card-image waves-effect waves-block waves-light">
-              <img src="{!! asset('me3.jpg') !!}">
+              <img id="profilepic" src="{!! asset('me3.jpg') !!}">
               {{--<h1 class="card-title activator">Nick Bertanzetti</h1>--}}
               {{--<span class="card-title activator " style="font-size:15px !important">IT Guru</span>--}}
             </div>
             <div class="card-content">
-              <a>
-                <span class="activator"><i class="material-icons right">more_vert</i></span>
-              </a>
+              {{--<a href="#" class="btn-floatingwaves-effect waves-light red" style="color: #4db6ac !important;">--}}
+                {{--<span class="activator"><i class="material-icons right dp48">info</i></span>--}}
+              {{--</a>--}}
+              <a href="#" class="activator btn-floating btn-large waves-effect waves-light red right"><i class="fa fa-info" aria-hidden="true"></i></a>
               <span class="card-title grey-text text-darken-4">Nick Bertanzetti</span>
+
               <p class="teal-text text-lighten-2">IT Guru</p>
               <br>
               <div class="card-action center">
-                <a class="waves-effect waves-light btn">What can I do for you?</a>
+                <a class="waves-effect waves-light btn page-scroll" href="#services">What can I do for you?</a>
               </div>
             </div>
 
@@ -67,7 +77,7 @@
     </div>
   </div>
 </div>
-<div class="container">
+<div class="container" id="services">
   <div class="section">
     <h3 class="center">Services</h3>
     <!--   Icon Section   -->
@@ -184,7 +194,7 @@
 </div>
 
 <div class="container">
-  <div class="section">
+  <div class="section" id="portfolio">
     <div class="row">
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -192,166 +202,117 @@
       </div>
     </div>
     <div class="row">
-      <div class="col s12 center">
-        <h4 class="light">Card Action Options</h4>
+      <div class="col l6">
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="{!! asset('screenshots/philo/login.png') !!}">
           </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-            <p><a href="#!">This is a link</a></p>
+          <div class="card-content center">
+            <span class="card-title activator grey-text text-darken-4">
+              Login Secure
+              <br>
+            </span>
+            {{--<p>Developed encrypted authentication and authorization web service to integrate 3rd party IPTV services</p>--}}
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            <span class="card-title grey-text text-darken-4">Login Secure<i class="material-icons right">close</i></span>
+            <p><b>Context:</b> A contract with a third party IPTV service provider was signed with the University of Alabama to provide IP restricted TV streaming services to on campus residents. Clients needed to be able to authenticate organizational users and then authorize based on campus residential status. Organizational login credentials needed to maintain confidential throughout exchange with 3rd party.</p>
+            <p><b>Action:</b> Worked with both clients development teams to set up an encrypted login information exchange between UA's Central Authentication Service (CAS) and 3rd party IPTV provider using the Advanced Encryption Standard (AES).</p>
+            <p><b>Result:</b> Successfully integrated two clients' services while maintaining confidentiality of user information.</p>
           </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
+          <div class="card-action center">
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
-        <h4 class="light">Card Action Options</h4>
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">
           </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-            <p><a href="#!">This is a link</a></p>
+          <div class="card-content center">
+            <span class="card-title activator grey-text text-darken-4">E-Commerce</span>
+            <br>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
+          <div class="card-action center">
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
-        <h4 class="light">Card Action Options</h4>
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/nursingCheckout/checkout.png') !!}">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-            <p><a href="#!">This is a link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s8 m4">
-        <h4 class="light">Card Action Options</h4>
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-            <p><a href="#!">This is a link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
-    </div>
-      <div class="col s8 m4">
-        {{--<h4 class="light">Card Action Options</h4>--}}
-        {{--<div class="card">--}}
-        {{--<div class="card-image waves-effect waves-block waves-light">--}}
-        {{--<img class="activator" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">--}}
-        {{--</div>--}}
-        {{--<div class="card-content">--}}
-        {{--<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>--}}
-        {{--<p><a href="#!">This is a link</a></p>--}}
-        {{--</div>--}}
-        {{--<div class="card-reveal">--}}
-        {{--<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>--}}
-        {{--<p>Here is some more information about this product that is only revealed once clicked on.</p>--}}
-        {{--</div>--}}
-        {{--<div class="card-action">--}}
-        {{--<a href="#">This is a link</a>--}}
-        {{--<a href="#">This is a link</a>--}}
-        {{--</div>--}}
-        {{--</div>--}}
-      </div>
-      <div class="col s8 m4">
-        <h4 class="light">Card Action Options</h4>
-        <div class="card hoverable">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-            <p><a href="#!">This is a link</a></p>
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s8 m4">
-        <h4 class="light">Card Action Options</h4>
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditForm.png') !!}">
           </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Data Feed Integration<i class="material-icons right">more_vert</i></span>
-            <p><a href="#!">This is a link</a></p>
+          <div class="card-content center">
+            <span class="card-title activator grey-text text-darken-4">Data Feed Integration</span>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
+          <div class="card-action center">
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
-      <div class="col s8 m4">
-        <h4 class="light">Card Action Options</h4>
+      <div class="col l6">
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">
+          </div>
+          <div class="card-content center">
+            <span class="card-title activator grey-text text-darken-4">Healthcare Records Automation</span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Healthcare Records Automation<i class="material-icons right">close</i></span>
+            <p><b>Context: </b>The University of Alabama Student Health Center is required to process batches of 10,000+ student immunization records in a limited timeline. Legacy process was paper-based and relied on outdated scanner and fax machine technologies. Process was failing to meet deadlines.</p>
+            <p><b>Action: </b>Worked with teammate to develop mobile friendly form download and submission portal for student users and a backend document processing queue for Student Health Center staff. Students click a button to download a PDF pre-populated with their personal information. After a receiving a doctors signature, students then can take a picture of their form with their mobile device and submit directly to the Student Health Center for approval.</p>
+            <p><b>Result: </b>New mobile friendly system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>
+          </div>
+          <div class="card-action center">
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="card hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="{!! asset('screenshots/nursingCheckout/checkout.png') !!}">
+          </div>
+          <div class="card-content center">
+            <span class="card-title activator grey-text text-darken-4">Inventory Management</span>
+            <br>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+          </div>
+          <div class="card-action center">
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="{!! asset('screenshots/promenade/promenadeForm2.png') !!}">
           </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-            <p><a href="#!">This is a link</a></p>
+          <div class="card-content center">
+            <span class="card-title activator grey-text text-darken-4">Web Forms Processing</span>
           </div>
           <div class="card-reveal">
             <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
+          <div class="card-action center">
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
-
+    </div>
   </div>
 </div>
 
@@ -361,9 +322,31 @@
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
         <h3>Tools</h3>
+        <div class="row">
+          <div class="col s12">
+            <ul class="tabs">
+              <li class="tab col s2"><a href="#test1">Languages</a></li>
+              <li class="tab col s2"><a class="active" href="#test2">Frameworks</a></li>
+              <li class="tab col s2"><a class="active" href="#test2">Libraries</a></li>
+              <li class="tab col s2"><a href="#test3">APIs</a></li>
+              <li class="tab col s2"><a href="#test4">OS</a></li>
+              <li class="tab col s2"><a href="#test4">Databases</a></li>
+              <li class="tab col s2"><a href="#test4">Servers</a></li>
+              <li class="tab col s2"><a href="#test4">Other</a></li>
+            </ul>
+          </div>
+          <div id="test1" class="col s12">Test 1</div>
+          <div id="test2" class="col s12">Test 2</div>
+          <div id="test3" class="col s12">Test 3</div>
+          <div id="test4" class="col s12">Test 4</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col l6 offset-l3">
         <ul class="collapsible popout" data-collapsible="accordion">
           <li>
-            <div class="collapsible-header"><i class="material-icons">filter_drama</i><a class="waves-effect waves-light btn">Languages</a></div>
+            <div class="collapsible-header"><a class="waves-effect waves-light btn">Languages</a></div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -391,7 +374,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">place</i><a class="waves-effect waves-light btn">Frameworks/Libraries</a></div>
+            <div class="collapsible-header"><a class="waves-effect waves-light btn">Frameworks/Libraries</a></div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -437,7 +420,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">whatshot</i><a class="waves-effect waves-light btn">APIs</a></div>
+            <div class="collapsible-header"><a class="waves-effect waves-light btn">APIs</a></div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -459,7 +442,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">whatshot</i><a class="waves-effect waves-light btn">OS</a></div>
+            <div class="collapsible-header"><a class="waves-effect waves-light btn">OS</a></div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -472,7 +455,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">whatshot</i><a class="waves-effect waves-light btn">Databases</a></div>
+            <div class="collapsible-header"><a class="waves-effect waves-light btn">Databases</a></div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -488,7 +471,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">whatshot</i><a class="waves-effect waves-light btn">Servers</a></div>
+            <div class="collapsible-header"><a class="waves-effect waves-light btn">Servers</a></div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -504,7 +487,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><i class="material-icons">whatshot</i><a class="waves-effect waves-light btn">Other</a></div>
+            <div class="collapsible-header"><a class="waves-effect waves-light btn">Other</a></div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -542,7 +525,9 @@
   <div class="section no-pad-bot">
     <div class="container">
       <div class="row center">
-        <h5 class="header col s12 light"><b>Would you like to know more?</b></h5>
+        <div class="valign-wrapper">
+          <h2 class="header col s12 light valign">Would you like to know more?</h2>
+        </div>
       </div>
     </div>
   </div>
@@ -603,6 +588,13 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="{!! asset('parallax-template/js/materialize.js') !!}"></script>
 <script src="{!! asset('parallax-template/js/init.js') !!}"></script>
+
+  <script>
+    $( document ).ready(function() {
+      console.log( "ready!" );
+      Materialize.fadeInImage('#profilepic')
+    });
+  </script>
 
 <script>
   var options = [
