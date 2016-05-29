@@ -46,7 +46,7 @@
               <p class="teal-text text-lighten-2">IT Guru</p>
               <br>
               <div class="card-action center">
-                <a href="#">What can I do for you?</a>
+                <a class="waves-effect waves-light btn">What can I do for you?</a>
               </div>
             </div>
 
@@ -78,7 +78,7 @@
             <div class="icon-block">
               <h2 class="center brown-text"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h2>
               <h5 class="center">Consulting</h5>
-              <p class="light flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+              <p class="light flow-text">Survey and analyze your workflow. Improve your processes. Increase efficiency. Leverage technology.</p>
             </div>
           </div>
         </li>
@@ -87,7 +87,7 @@
             <div class="icon-block">
               <h2 class="center brown-text"><i class="fa fa-keyboard-o" aria-hidden="true"></i></h2>
               <h5 class="center">Software Development</h5>
-              <p class="light flow-text">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+              <p class="light flow-text">Full lifecycle development: plan, anaylze, design, build, test, deploy, and maintain your systems.</p>
             </div>
           </div>
         </li>
@@ -100,7 +100,7 @@
                 <i class="fa fa-mobile" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Responsive Design</h5>
-              <p class="light flow-text">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+              <p class="light flow-text">Mobile-first development. Make your app look and feel great on devices of all sizes.</p>
             </div>
           </div>
         </li>
@@ -115,7 +115,7 @@
                 <i class="fa fa-database" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Database Administration</h5>
-              <p class="light flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+              <p class="light flow-text">Migrate your Excel spreadsheets into a database, optimize performance, and feed the data into your systems. </p>
             </div>
           </div>
         </li>
@@ -126,7 +126,7 @@
                 <i class="fa fa-line-chart" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Data Analytics</h5>
-              <p class="light flow-text">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+              <p class="light flow-text">Process, analyze, and visualize important information. Perform machine learning analysis to automate the data mining process.</p>
             </div>
           </div>
         </li>
@@ -137,7 +137,7 @@
                 <i class="fa fa-server" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Server Administration</h5>
-              <p class="light flow-text">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+              <p class="light flow-text">Hosting solutions: installation, configuration, maintenance, and service management.</p>
             </div>
           </div>
         </li>
@@ -152,7 +152,7 @@
                 <i class="fa fa-calendar" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Project Management</h5>
-              <p class="light flow-text">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+              <p class="light flow-text">Utilize the right methodologies and tools to efficiently deliver your project on schedule. Foster collaboration and transparent communication.</p>
             </div>
           </div>
         </li>
@@ -163,7 +163,7 @@
                 <i class="fa fa-wheelchair" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Accessibility</h5>
-              <p class="light flow-text">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+              <p class="light flow-text">Adhere to W3C Web Content Accessibility Guidelines (WCAG) and ensure accessibility for disabled peoples.</p>
             </div>
           </div>
         </li>
@@ -174,7 +174,7 @@
                 <i class="fa fa-lock" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Security</h5>
-              <p class="light flow-text">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+              <p class="light flow-text">Encrypt your data, authenticate and authorize your users, manage access. Test and analyze vulnerabilities.</p>
             </div>
           </div>
         </li>
