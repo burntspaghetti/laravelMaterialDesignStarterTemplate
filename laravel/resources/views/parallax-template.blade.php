@@ -46,17 +46,15 @@
               {{--<h1 class="card-title activator">Nick Bertanzetti</h1>--}}
               {{--<span class="card-title activator " style="font-size:15px !important">IT Guru</span>--}}
             </div>
-            <div class="card-content">
+            <div class="card-content center">
               {{--<a href="#" class="btn-floatingwaves-effect waves-light red" style="color: #4db6ac !important;">--}}
                 {{--<span class="activator"><i class="material-icons right dp48">info</i></span>--}}
               {{--</a>--}}
-              <a href="#" class="activator btn-floating btn-large waves-effect waves-light red right"><i class="fa fa-info" aria-hidden="true"></i></a>
               <span class="card-title grey-text text-darken-4">Nick Bertanzetti</span>
-
               <p class="teal-text text-lighten-2">IT Guru</p>
               <br>
               <div class="card-action center">
-                <a class="waves-effect waves-light btn page-scroll" href="#services">What can I do for you?</a>
+                <a href="#" class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
               </div>
             </div>
 
@@ -206,6 +204,7 @@
         <div class="card hoverable">
           <div class="card-image waves-effect waves-block waves-light">
             <img class="activator" src="{!! asset('screenshots/philo/login.png') !!}">
+            {{--put slider here?--}}
           </div>
           <div class="card-content center">
             <span class="card-title activator grey-text text-darken-4">
@@ -222,7 +221,23 @@
           </div>
           <div class="card-action center">
             <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a href="#modal1" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/philo/login.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Central Authentication Service</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
           </div>
         </div>
         <div class="card hoverable">
@@ -239,7 +254,44 @@
           </div>
           <div class="card-action center">
             <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a href="#modal2" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Home Page</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreSearch.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Search Function</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreProductView.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Product View</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreBuyBooks.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Book Checkout/Purchase</span>
+              </div>
+            </div>
           </div>
         </div>
         <div class="card hoverable">
@@ -255,7 +307,28 @@
           </div>
           <div class="card-action center">
             <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a href="#modal3" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditHome.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Home Page</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/internationalcoursecredit/internationalCourseCreditForm.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Request Form</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -265,17 +338,33 @@
             <img class="activator" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">
           </div>
           <div class="card-content center">
-            <span class="card-title activator grey-text text-darken-4">Healthcare Records Automation</span>
+            <span class="card-title activator grey-text text-darken-4">Healthcare Automation</span>
           </div>
           <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Healthcare Records Automation<i class="material-icons right">close</i></span>
+            <span class="card-title grey-text text-darken-4">Healthcare Automation<i class="material-icons right">close</i></span>
             <p><b>Context: </b>The University of Alabama Student Health Center is required to process batches of 10,000+ student immunization records in a limited timeline. Legacy process was paper-based and relied on outdated scanner and fax machine technologies. Process was failing to meet deadlines.</p>
             <p><b>Action: </b>Worked with teammate to develop mobile friendly form download and submission portal for student users and a backend document processing queue for Student Health Center staff. Students click a button to download a PDF pre-populated with their personal information. After a receiving a doctors signature, students then can take a picture of their form with their mobile device and submit directly to the Student Health Center for approval.</p>
             <p><b>Result: </b>New mobile friendly system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>
           </div>
           <div class="card-action center">
             <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a href="#modal4" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal4" class="modal">
+          <div class="modal-content">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/immunizations/immunizations.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Upload Portal</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
           </div>
         </div>
         <div class="card hoverable">
@@ -292,7 +381,47 @@
           </div>
           <div class="card-action center">
             <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a href="#modal5" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal5" class="modal">
+          <div class="modal-content">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutHome.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Checkout Page</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutBorrowerHistory.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Borrower History</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutReport.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Checkout Report</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/nursingCheckout/checkoutDeviceHistory.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Device History</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
           </div>
         </div>
         <div class="card hoverable">
@@ -308,7 +437,47 @@
           </div>
           <div class="card-action center">
             <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a href="#modal6" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <!-- Modal Structure -->
+        <div id="modal6" class="modal">
+          <div class="modal-content">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeHome.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Home Page</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeForm1.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Form 1</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeForm2.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Form 2</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/promenade/promenadeSummary.png') !!}">
+              </div>
+              <div class="card-content center">
+                <span class="card-title grey-text text-darken-4">Summary</span>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
           </div>
         </div>
       </div>
@@ -610,6 +779,23 @@
   ];
   Materialize.scrollFire(options);
 </script>
+
+  <script>
+    $(document).ready(function(){
+      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+      $('.modal-trigger').leanModal();
+    });
+
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    $(document).ready(function(){
+      $('.slider').slider({full_width: true});
+    });
+    $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
+  </script>
 
 </body>
 </html>

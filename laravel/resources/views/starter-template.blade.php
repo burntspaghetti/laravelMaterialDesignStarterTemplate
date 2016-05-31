@@ -32,6 +32,43 @@
       </div>
       <div class="row center">
         <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+        <!-- Modal Trigger -->
+        <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Modal</a>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">
+              </div>
+              <div class="card-content">
+                <span class="card-title grey-text text-darken-4">Card Title</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreSearch.png') !!}">
+              </div>
+              <div class="card-content">
+                <span class="card-title grey-text text-darken-4">Card Title</span>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreHome.png') !!}">
+              </li>
+              <br>
+              <br>
+              <li>
+                <img class="materialboxed" width="650" src="{!! asset('screenshots/supplystore/supplyStoreSearch.png') !!}">
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+          </div>
+        </div>
       </div>
       <br><br>
 
@@ -121,6 +158,11 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="{!! asset('starter-template/js/materialize.js') !!}"></script>
   <script src="{!! asset('starter-template/js/init.js') !!}"></script>
-
+<script>
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+</script>
   </body>
 </html>
