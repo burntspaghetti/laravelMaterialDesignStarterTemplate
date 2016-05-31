@@ -43,18 +43,13 @@
           <div class="card hoverable" style="overflow: hidden;">
             <div class="card-image waves-effect waves-block waves-light">
               <img id="profilepic" src="{!! asset('me3.jpg') !!}">
-              {{--<h1 class="card-title activator">Nick Bertanzetti</h1>--}}
-              {{--<span class="card-title activator " style="font-size:15px !important">IT Guru</span>--}}
             </div>
             <div class="card-content center">
-              {{--<a href="#" class="btn-floatingwaves-effect waves-light red" style="color: #4db6ac !important;">--}}
-                {{--<span class="activator"><i class="material-icons right dp48">info</i></span>--}}
-              {{--</a>--}}
               <span class="card-title grey-text text-darken-4">Nick Bertanzetti</span>
               <p class="teal-text text-lighten-2">IT Guru</p>
               <br>
               <div class="card-action center">
-                <a href="#" class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
+                <a href="#" class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
               </div>
             </div>
 
@@ -84,7 +79,7 @@
         <li style="opacity: 0">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h2>
+              <h2 class="center teal-text"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h2>
               <h5 class="center">Consulting</h5>
               <p class="light flow-text">Survey and analyze your workflow. Improve your processes. Increase efficiency. Leverage technology.</p>
             </div>
@@ -93,7 +88,7 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text"><i class="fa fa-keyboard-o" aria-hidden="true"></i></h2>
+              <h2 class="center teal-text"><i class="fa fa-keyboard-o" aria-hidden="true"></i></h2>
               <h5 class="center">Software Development</h5>
               <p class="light flow-text">Full lifecycle development: plan, anaylze, design, build, test, deploy, and maintain your systems.</p>
             </div>
@@ -102,7 +97,7 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text">
+              <h2 class="center teal-text">
                 <i class="fa fa-desktop" aria-hidden="true"></i>
                 <i class="fa fa-tablet" aria-hidden="true"></i>
                 <i class="fa fa-mobile" aria-hidden="true"></i>
@@ -119,7 +114,7 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text">
+              <h2 class="center teal-text">
                 <i class="fa fa-database" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Database Administration</h5>
@@ -130,7 +125,7 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text">
+              <h2 class="center teal-text">
                 <i class="fa fa-line-chart" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Data Analytics</h5>
@@ -141,7 +136,7 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text">
+              <h2 class="center teal-text">
                 <i class="fa fa-server" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Server Administration</h5>
@@ -156,7 +151,7 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text">
+              <h2 class="center teal-text">
                 <i class="fa fa-calendar" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Project Management</h5>
@@ -167,7 +162,7 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text">
+              <h2 class="center teal-text">
                 <i class="fa fa-wheelchair" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Accessibility</h5>
@@ -178,7 +173,7 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center brown-text">
+              <h2 class="center teal-text">
                 <i class="fa fa-lock" aria-hidden="true"></i>
               </h2>
               <h5 class="center">Security</h5>
@@ -220,8 +215,8 @@
             <p><b>Result:</b> Successfully integrated two clients' services while maintaining confidentiality of user information.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal1" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a href="#modal1" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
         <!-- Modal Structure -->
@@ -253,8 +248,8 @@
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal2" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a href="#modal2" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
         <!-- Modal Structure -->
@@ -306,8 +301,8 @@
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal3" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a href="#modal3" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
         <!-- Modal Structure -->
@@ -347,8 +342,8 @@
             <p><b>Result: </b>New mobile friendly system maximizes user friendliness and process efficiency, saving 78,000+ hours of aggregate process completion per time year.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal4" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a href="#modal4" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
         <!-- Modal Structure -->
@@ -380,8 +375,8 @@
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal5" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a href="#modal5" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
         <!-- Modal Structure -->
@@ -436,8 +431,8 @@
             <p>Here is some more information about this product that is only revealed once clicked on.</p>
           </div>
           <div class="card-action center">
-            <a class="activator btn-floating btn-large waves-effect waves-light"><i class="fa fa-info" aria-hidden="true"></i></a>
-            <a href="#modal6" class="btn-floating btn-large waves-effect waves-light modal-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+            <a class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
+            <a href="#modal6" class="btn-floating btn-large waves-effect waves-light modal-trigger red"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
         </div>
         <!-- Modal Structure -->
@@ -491,59 +486,28 @@
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
         <h3>Tools</h3>
-        <div class="row">
-          <div class="col s12">
-            <ul class="tabs">
-              <li class="tab col s2"><a href="#test1">Languages</a></li>
-              <li class="tab col s2"><a class="active" href="#test2">Frameworks</a></li>
-              <li class="tab col s2"><a class="active" href="#test2">Libraries</a></li>
-              <li class="tab col s2"><a href="#test3">APIs</a></li>
-              <li class="tab col s2"><a href="#test4">OS</a></li>
-              <li class="tab col s2"><a href="#test4">Databases</a></li>
-              <li class="tab col s2"><a href="#test4">Servers</a></li>
-              <li class="tab col s2"><a href="#test4">Other</a></li>
-            </ul>
-          </div>
-          <div id="test1" class="col s12">Test 1</div>
-          <div id="test2" class="col s12">Test 2</div>
-          <div id="test3" class="col s12">Test 3</div>
-          <div id="test4" class="col s12">Test 4</div>
-        </div>
       </div>
     </div>
     <div class="row">
       <div class="col l6 offset-l3">
-        <ul class="collapsible popout" data-collapsible="accordion">
+        <ul class="collapsible" data-collapsible="accordion">
           <li>
-            <div class="collapsible-header"><a class="waves-effect waves-light btn">Languages</a></div>
+            <div class="collapsible-header">Languages</div>
             <div class="collapsible-body">
               <p>
-              <div class="chip">
-                PHP
-              </div>
-              <div class="chip">
-                PL/SQL
-              </div>
-              <div class="chip">
-                JavaScript
-              </div>
-              <div class="chip">
-                HTML
-              </div>
-              <div class="chip">
-                CSS/SASS
-              </div>
-              <div class="chip">
-                PL/SQL
-              </div>
-              <div class="chip">
-                C#
-              </div>
+                <a class="waves-effect waves-light btn">PHP</a>
+                <a class="waves-effect waves-light btn">PL/SQL</a>
+                <a class="waves-effect waves-light btn">JavaScript</a>
+                <a class="waves-effect waves-light btn">HTML</a>
+                <a class="waves-effect waves-light btn">CSS/SASS</a>
+                <a class="waves-effect waves-light btn">PL/SQL</a>
+                <a class="waves-effect waves-light btn">C#</a>
+                <a class="waves-effect waves-light btn">JavaScript</a>
               </p>
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><a class="waves-effect waves-light btn">Frameworks/Libraries</a></div>
+            <div class="collapsible-header">Frameworks/Libraries</div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -589,7 +553,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><a class="waves-effect waves-light btn">APIs</a></div>
+            <div class="collapsible-header">APIs</div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -611,7 +575,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><a class="waves-effect waves-light btn">OS</a></div>
+            <div class="collapsible-header">OS</div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -624,7 +588,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><a class="waves-effect waves-light btn">Databases</a></div>
+            <div class="collapsible-header">Databases</div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -640,7 +604,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><a class="waves-effect waves-light btn">Servers</a></div>
+            <div class="collapsible-header">Servers</div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -656,7 +620,7 @@
             </div>
           </li>
           <li>
-            <div class="collapsible-header"><a class="waves-effect waves-light btn">Other</a></div>
+            <div class="collapsible-header">Other</div>
             <div class="collapsible-body">
               <p>
               <div class="chip">
@@ -760,7 +724,6 @@
 
   <script>
     $( document ).ready(function() {
-      console.log( "ready!" );
       Materialize.fadeInImage('#profilepic')
     });
   </script>
