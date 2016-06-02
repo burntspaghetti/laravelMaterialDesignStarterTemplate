@@ -78,31 +78,31 @@
       <div class="row">
         <li style="opacity: 0">
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center teal-text"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h2>
-              <h5 class="center">Consulting</h5>
+            <div class="icon-block center">
+              <h2 class="teal-text"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i></h2>
+              <h5 class="">Consulting</h5>
               <p class="light flow-text">Survey and analyze your workflow. Improve your processes. Increase efficiency. Leverage technology.</p>
             </div>
           </div>
         </li>
         <li style="opacity: 0;">
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center teal-text"><i class="fa fa-keyboard-o" aria-hidden="true"></i></h2>
-              <h5 class="center">Software Development</h5>
+            <div class="icon-block center">
+              <h2 class="teal-text"><i class="fa fa-keyboard-o" aria-hidden="true"></i></h2>
+              <h5 class="">Software Development</h5>
               <p class="light flow-text">Full lifecycle development: plan, anaylze, design, build, test, deploy, and maintain your systems.</p>
             </div>
           </div>
         </li>
         <li style="opacity: 0;">
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center teal-text">
+            <div class="icon-block center">
+              <h2 class="teal-text">
                 <i class="fa fa-desktop" aria-hidden="true"></i>
                 <i class="fa fa-tablet" aria-hidden="true"></i>
                 <i class="fa fa-mobile" aria-hidden="true"></i>
               </h2>
-              <h5 class="center">Responsive Design</h5>
+              <h5 class="">Responsive Design</h5>
               <p class="light flow-text">Mobile-first development. Make your app look and feel great on devices of all sizes.</p>
             </div>
           </div>
@@ -114,32 +114,32 @@
         <li style="opacity: 0;">
           <div class="col s12 m4">
             <div class="icon-block">
-              <h2 class="center teal-text">
+              <h2 class="teal-text center">
                 <i class="fa fa-database" aria-hidden="true"></i>
               </h2>
-              <h5 class="center">Database Administration</h5>
+              <h5 class="">Database Administration</h5>
               <p class="light flow-text">Migrate your Excel spreadsheets into a database, optimize performance, and feed the data into your systems. </p>
             </div>
           </div>
         </li>
         <li style="opacity: 0;">
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center teal-text">
+            <div class="icon-block center">
+              <h2 class="teal-text">
                 <i class="fa fa-line-chart" aria-hidden="true"></i>
               </h2>
-              <h5 class="center">Data Analytics</h5>
+              <h5 class="">Data Analytics</h5>
               <p class="light flow-text">Process, analyze, and visualize important information. Perform machine learning analysis to automate the data mining process.</p>
             </div>
           </div>
         </li>
         <li style="opacity: 0;">
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center teal-text">
+            <div class="icon-block center">
+              <h2 class="teal-text">
                 <i class="fa fa-server" aria-hidden="true"></i>
               </h2>
-              <h5 class="center">Server Administration</h5>
+              <h5 class="">Server Administration</h5>
               <p class="light flow-text">Hosting solutions: installation, configuration, maintenance, and service management.</p>
             </div>
           </div>
@@ -150,33 +150,33 @@
       <div class="row">
         <li style="opacity: 0;">
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center teal-text">
+            <div class="icon-block center">
+              <h2 class="teal-text">
                 <i class="fa fa-calendar" aria-hidden="true"></i>
               </h2>
-              <h5 class="center">Project Management</h5>
+              <h5 class="">Project Management</h5>
               <p class="light flow-text">Utilize the right methodologies and tools to efficiently deliver your project on schedule. Foster collaboration and transparent communication.</p>
             </div>
           </div>
         </li>
         <li style="opacity: 0;">
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center teal-text">
+            <div class="icon-block center">
+              <h2 class="teal-text">
                 <i class="fa fa-wheelchair" aria-hidden="true"></i>
               </h2>
-              <h5 class="center">Accessibility</h5>
+              <h5 class="">Accessibility</h5>
               <p class="light flow-text">Adhere to W3C Web Content Accessibility Guidelines (WCAG) and ensure accessibility for disabled peoples.</p>
             </div>
           </div>
         </li>
         <li style="opacity: 0;">
           <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center teal-text">
+            <div class="icon-block center">
+              <h2 class="teal-text">
                 <i class="fa fa-lock" aria-hidden="true"></i>
               </h2>
-              <h5 class="center">Security</h5>
+              <h5 class="">Security</h5>
               <p class="light flow-text">Encrypt your data, authenticate and authorize your users, manage access. Test and analyze vulnerabilities.</p>
             </div>
           </div>
@@ -203,7 +203,7 @@
           </div>
           <div class="card-content center">
             <span class="card-title activator grey-text text-darken-4">
-              Login Secure
+              Secure Login
               <br>
             </span>
             {{--<p>Developed encrypted authentication and authorization web service to integrate 3rd party IPTV services</p>--}}
@@ -488,8 +488,8 @@
         <h3>Tools</h3>
       </div>
     </div>
-    <div class="row">
-      <div class="col l6 offset-l3">
+    <div class="row center">
+      <div class="">
         <ul class="collapsible" data-collapsible="accordion">
           <li>
             <div class="collapsible-header">Languages</div>
@@ -609,7 +609,7 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="{!! asset('parallax-template/issTimelapse6.jpg') !!}" alt="Unsplashed background img 2"></div>
+  <div class="parallax responsive-img"><img src="{!! asset('parallax-template/issTimelapse6.jpg') !!}" alt="Unsplashed background img 2"></div>
 </div>
 
 <div class="container">
