@@ -21,15 +21,19 @@
       </div>
     </div>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#" class="white-text">About</a></li>
-      <li><a href="#services" class="white-text">Services</a></li>
-      <li><a href="#portfolio" class="white-text">Portfolio</a></li>
-      <li><a href="#tools" class="white-text">Tools</a></li>
-      <li><a href="#contact" class="white-text">Contact</a></li>
+      <li><a href="#" class="white-text"><b>About</b></a></li>
+      <li><a href="#services" class="white-text"><b>Services</b></a></li>
+      <li><a href="#portfolio" class="white-text"><b>Portfolio</b></a></li>
+      <li><a href="#tools" class="white-text"><b>Tools</b></a></li>
+      <li><a href="#contact" class="white-text"><b>Contact</b></a></li>
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
-      <li><a href="#">Navbar Link</a></li>
+      <li><a href="#" class="teal-text"><b>About</b></a></li>
+      <li><a href="#services" class="teal-text"><b>Services</b></a></li>
+      <li><a href="#portfolio" class="teal-text"><b>Portfolio</b></a></li>
+      <li><a href="#tools" class="teal-text"><b>Tools</b></a></li>
+      <li><a href="#contact" class="teal-text"><b>Contact</b></a></li>
     </ul>
     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
   </div>
@@ -599,17 +603,15 @@
 </div>
 
 
-<div class="parallax-container valign-wrapper">
-  <div class="section no-pad-bot">
-    <div class="container">
-      <div class="row center">
-        <div class="valign-wrapper">
-          <h2 class="header col s12 light valign">Would you like to know more?</h2>
-        </div>
-      </div>
+<div class="parallax-container">
+  <div class="container">
+    <div class="row">
+      <h4 class="center header light" style="margin-bottom:25%; margin-top:25%;">Would you like to know more?</h4>
     </div>
   </div>
-  <div class="parallax responsive-img"><img src="{!! asset('parallax-template/issTimelapse6.jpg') !!}" alt="Unsplashed background img 2"></div>
+  <div class="parallax responsive-img">
+    <img src="{!! asset('parallax-template/issTimelapse6.jpg') !!}" alt="Unsplashed background img 2">
+  </div>
 </div>
 
 <div class="container">
