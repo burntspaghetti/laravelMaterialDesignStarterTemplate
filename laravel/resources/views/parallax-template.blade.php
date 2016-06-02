@@ -22,10 +22,10 @@
     </div>
     <ul class="right hide-on-med-and-down">
       <li><a href="#" class="white-text">About</a></li>
-      <li><a href="#" class="white-text">Services</a></li>
+      <li><a href="#services" class="white-text">Services</a></li>
       <li><a href="#portfolio" class="white-text">Portfolio</a></li>
-      <li><a href="#" class="white-text">Tools</a></li>
-      <li><a href="#" class="white-text">Contact</a></li>
+      <li><a href="#tools" class="white-text">Tools</a></li>
+      <li><a href="#contact" class="white-text">Contact</a></li>
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
@@ -70,8 +70,8 @@
     </div>
   </div>
 </div>
-<div class="container" id="services">
-  <div class="section">
+<div class="container">
+  <div class="section" id="services">
     <h3 class="center">Services</h3>
     <!--   Icon Section   -->
     <ul id="staggered-row-1">
@@ -481,7 +481,7 @@
 </div>
 
 <div class="container">
-  <div class="section">
+  <div class="section" id="tools">
     <div class="row">
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -495,14 +495,14 @@
             <div class="collapsible-header">Languages</div>
             <div class="collapsible-body">
               <p>
-                <a class="waves-effect waves-light btn">PHP</a>
-                <a class="waves-effect waves-light btn">PL/SQL</a>
-                <a class="waves-effect waves-light btn">JavaScript</a>
-                <a class="waves-effect waves-light btn">HTML</a>
-                <a class="waves-effect waves-light btn">CSS/SASS</a>
-                <a class="waves-effect waves-light btn">PL/SQL</a>
-                <a class="waves-effect waves-light btn">C#</a>
-                <a class="waves-effect waves-light btn">JavaScript</a>
+                <a class="waves-effect waves-light btn btn-spacer">PHP</a>
+                <a class="waves-effect waves-light btn btn-spacer">PL/SQL</a>
+                <a class="waves-effect waves-light btn btn-spacer">JavaScript</a>
+                <a class="waves-effect waves-light btn btn-spacer">HTML</a>
+                <a class="waves-effect waves-light btn btn-spacer">CSS/SASS</a>
+                <a class="waves-effect waves-light btn btn-spacer">PL/SQL</a>
+                <a class="waves-effect waves-light btn btn-spacer">C#</a>
+                <a class="waves-effect waves-light btn btn-spacer">JavaScript</a>
               </p>
             </div>
           </li>
@@ -510,45 +510,20 @@
             <div class="collapsible-header">Frameworks/Libraries</div>
             <div class="collapsible-body">
               <p>
-              <div class="chip">
-                Laravel
-              </div>
-              <div class="chip">
-                jQuery
-              </div>
-              <div class="chip">
-                Vue.js
-              </div>
-              <div class="chip">
-                Twitter Bootstrap
-              </div>
-              <div class="chip">
-                ASP.NET MVC
-              </div>
-              <div class="chip">
-                Highcharts
-              </div>
-              <div class="chip">
-                Chart.js
-              </div>
-              <div class="chip">
-                Image Intervention
-              </div>
-              <div class="chip">
-                DataTables
-              </div>
-              <div class="chip">
-                phpCAS
-              </div>
-              <div class="chip">
-                phpAES
-              </div>
-              <div class="chip">
-                FPDF/FPDI
-              </div>
-              <div class="chip">
-                Font Awesome
-              </div>
+                <a class="waves-effect waves-light btn btn-spacer">Laravel</a>
+                <a class="waves-effect waves-light btn btn-spacer">jQuery</a>
+                <a class="waves-effect waves-light btn btn-spacer">Vue.js</a>
+                <a class="waves-effect waves-light btn btn-spacer">Twitter Bootstrap</a>
+                <a class="waves-effect waves-light btn btn-spacer">Materialize</a>
+                <a class="waves-effect waves-light btn btn-spacer">ASP.NET MVC</a>
+                <a class="waves-effect waves-light btn btn-spacer">Highcharts</a>
+                <a class="waves-effect waves-light btn btn-spacer">Chart.js</a>
+                <a class="waves-effect waves-light btn btn-spacer">Image Intervention</a>
+                <a class="waves-effect waves-light btn btn-spacer">DataTables</a>
+                <a class="waves-effect waves-light btn btn-spacer">phpCAS</a>
+                <a class="waves-effect waves-light btn btn-spacer">phpAES</a>
+                <a class="waves-effect waves-light btn btn-spacer">FPDF/FPDI</a>
+                <a class="waves-effect waves-light btn btn-spacer">Font Awesome</a>
               </p>
             </div>
           </li>
@@ -556,21 +531,11 @@
             <div class="collapsible-header">APIs</div>
             <div class="collapsible-body">
               <p>
-              <div class="chip">
-                Twitter
-              </div>
-              <div class="chip">
-                Google Maps
-              </div>
-              <div class="chip">
-                Stack Exchange
-              </div>
-              <div class="chip">
-                Alchemy API
-              </div>
-              <div class="chip">
-                OCI
-              </div>
+                <a class="waves-effect waves-light btn btn-spacer">Twitter</a>
+                <a class="waves-effect waves-light btn btn-spacer">Google Maps</a>
+                <a class="waves-effect waves-light btn btn-spacer">Stack Exchange</a>
+                <a class="waves-effect waves-light btn btn-spacer">Alchemy API</a>
+                <a class="waves-effect waves-light btn btn-spacer">OCI</a>
               </p>
             </div>
           </li>
@@ -578,12 +543,8 @@
             <div class="collapsible-header">OS</div>
             <div class="collapsible-body">
               <p>
-              <div class="chip">
-                Linux
-              </div>
-              <div class="chip">
-                Microsoft
-              </div>
+                <a class="waves-effect waves-light btn btn-spacer">Linux</a>
+                <a class="waves-effect waves-light btn btn-spacer">Microsoft</a>
               </p>
             </div>
           </li>
@@ -591,15 +552,9 @@
             <div class="collapsible-header">Databases</div>
             <div class="collapsible-body">
               <p>
-              <div class="chip">
-                Oracle
-              </div>
-              <div class="chip">
-                MySQL
-              </div>
-              <div class="chip">
-                Microsoft
-              </div>
+                <a class="waves-effect waves-light btn btn-spacer">Oracle</a>
+                <a class="waves-effect waves-light btn btn-spacer">MySQL</a>
+                <a class="waves-effect waves-light btn btn-spacer">Microsoft SQL</a>
               </p>
             </div>
           </li>
@@ -607,15 +562,19 @@
             <div class="collapsible-header">Servers</div>
             <div class="collapsible-body">
               <p>
-              <div class="chip">
-                Apache
-              </div>
-              <div class="chip">
-                Nginx
-              </div>
-              <div class="chip">
-                Microsoft
-              </div>
+                <a class="waves-effect waves-light btn btn-spacer">Apache</a>
+                <a class="waves-effect waves-light btn btn-spacer">Nginx</a>
+                <a class="waves-effect waves-light btn btn-spacer">Microsoft</a>
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">Project Management</div>
+            <div class="collapsible-body">
+              <p>
+                <a class="waves-effect waves-light btn btn-spacer">Jira</a>
+                <a class="waves-effect waves-light btn btn-spacer">Confluence</a>
+                <a class="waves-effect waves-light btn btn-spacer">Trello</a>
               </p>
             </div>
           </li>
@@ -623,27 +582,13 @@
             <div class="collapsible-header">Other</div>
             <div class="collapsible-body">
               <p>
-              <div class="chip">
-                AMP
-              </div>
-              <div class="chip">
-                WAVE Toolbar
-              </div>
-              <div class="chip">
-                Chrome DevTools
-              </div>
-              <div class="chip">
-                Firebug
-              </div>
-              <div class="chip">
-                Vagrant
-              </div>
-              <div class="chip">
-                Bitbucket
-              </div>
-              <div class="chip">
-                Git
-              </div>
+                <a class="waves-effect waves-light btn btn-spacer">Chrome DevTools</a>
+                <a class="waves-effect waves-light btn btn-spacer">Firebug</a>
+                <a class="waves-effect waves-light btn btn-spacer">Vagrant</a>
+                <a class="waves-effect waves-light btn btn-spacer">Bitbucket</a>
+                <a class="waves-effect waves-light btn btn-spacer">Git</a>
+                <a class="waves-effect waves-light btn btn-spacer">AMP</a>
+                <a class="waves-effect waves-light btn btn-spacer">WAVE Toolbar</a>
               </p>
             </div>
           </li>
@@ -668,8 +613,7 @@
 </div>
 
 <div class="container">
-  <div class="section">
-
+  <div class="section" id="contact">
     <div class="row">
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -759,6 +703,12 @@
       $('.materialboxed').materialbox();
     });
   </script>
+  
+  <style>
+    .btn-spacer{
+      margin-bottom: 1em;
+    }  
+  </style>
 
 </body>
 </html>
