@@ -3,6 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="theme-color" content="#4db6ac">
   <link rel="shortcut icon" href="{!! asset('parallax-template/enso.png') !!}">
   <title>Nick Bertanzetti</title>
 
@@ -27,7 +28,6 @@
       <li><a href="#tools" class="white-text">Tools</a></li>
       <li><a href="#contact" class="white-text">Contact</a></li>
     </ul>
-
     <ul id="nav-mobile" class="side-nav">
       <li><a href="#" class="teal-text"><b>About</b></a></li>
       <li><a href="#services" class="teal-text"><b>Services</b></a></li>
@@ -50,17 +50,12 @@
             </div>
             <div class="card-content center">
               <span class="card-title grey-text text-darken-4">Nick Bertanzetti</span>
-              <p class="teal-text text-lighten-2">IT Guru</p>
+              <p class="teal-text text-lighten-2"><b>IT Guru</b></p>
               <br>
               <div class="card-action center">
                 <a href="#" class="activator btn-floating btn-large waves-effect waves-light red"><i class="fa fa-info" aria-hidden="true"></i></a>
               </div>
             </div>
-
-            {{--<div class="card-action">--}}
-              {{--<a href="#">What can I do for you?</a>--}}
-            {{--</div>--}}
-
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4">Hi there.<i class="material-icons right">close</i></span>
               <p class="light flow-text">My name is Nick Bertanzetti and I'd like to help you navigate the electronic age. Whether you want to build an entire system from scratch or chat about an idea, I'm always open for discussion. Scroll on down to learn more about what I can do for you.</p>
@@ -631,8 +626,6 @@
     </div>
   </div>
 </div>
-
-
 <div class="parallax-container">
   <div class="container">
     <div class="row">
@@ -643,7 +636,6 @@
     <img src="{!! asset('parallax-template/issTimelapse6.jpg') !!}" alt="Unsplashed background img 2">
   </div>
 </div>
-
 <div class="container">
   <div class="section" id="contact">
     <div class="row">
@@ -655,22 +647,8 @@
         {{--<img src="{!! asset('parallax-template/calvin.jpg') !!}" alt="Unsplashed background img 2">--}}
       </div>
     </div>
-
   </div>
 </div>
-
-
-{{--<div class="parallax-container valign-wrapper">--}}
-  {{--<div class="section no-pad-bot">--}}
-    {{--<div class="container">--}}
-      {{--<div class="row center">--}}
-        {{--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>--}}
-      {{--</div>--}}
-    {{--</div>--}}
-  {{--</div>--}}
-  {{--<div class="parallax"><img src="{!! asset('parallax-template/background3.jpg') !!}" alt="Unsplashed background img 3"></div>--}}
-{{--</div>--}}
-
 <footer class="page-footer teal">
   <div class="container">
     <div class="row center">
@@ -679,11 +657,6 @@
       <a href="https://github.com/burntspaghetti" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-git"></i></a>
       <a href="http://stackoverflow.com/users/3895839/thesingularity" class="btn-floating btn-large waves-effect waves-light red"><i class="fa fa-fw fa-stack-overflow"></i></a>
     </div>
-    {{--<div class="row">--}}
-        {{--<p class="center-align grey-text text-lighten-4">The long night;</p>--}}
-        {{--<p class="center-align grey-text text-lighten-4">The sound of water,</p>--}}
-        {{--<p class="center-align grey-text text-lighten-4">Says what I think.</p>--}}
-    {{--</div>--}}
   </div>
   <div class="footer-copyright">
     <div class="container center-align">
